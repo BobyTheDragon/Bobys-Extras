@@ -8,3 +8,6 @@ For anyone who bothers reading these. Here are some key things about posting iss
 - **USE PASTEBIN PLEASE!** I will not download random files off someone I dont know.
 - Be descriptive about what happend with the crash, This includes what you were doing at the time and/or a mods list. The more infomation I get the better.
 - Be nice... :)
+
+# License
+The mod and its code is distrubted under the MIT License. If you do not know what that is, You can use this great place called Google :)
