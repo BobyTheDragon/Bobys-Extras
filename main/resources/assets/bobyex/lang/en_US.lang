@@ -1,0 +1,107 @@
+item.extractor.name=Extractor
+item.infuser.name=Infuser
+
+item.ironshard.name=Iron Shard
+item.obbyingot.name=Obsidian Ingot
+item.obbystick.name=Obsidian Stick
+item.nightvisionlens.name=Night Vision Lens
+item.leatherstrap.name=Leather Strap
+item.boroningot.name=Boron Ingot
+item.boronstick.name=Boron Stick
+item.blackpaste.name=Black Paste
+
+item.camogreen.name=Forest Camouflage Plating
+item.camored.name=Nether Camouflage Plating
+item.camoyellow.name=Sand Camouflage Plating
+item.camowhite.name=Snow Camouflage Plating
+item.camogrey.name=Stone Camouflage Plating
+
+item.enderdust.name=Enderpulvis
+item.endergem.name=Enderpulvis Gem
+item.enderseed.name=Enderpulvis Seeds
+item.enderdustgreen.name=Terra Infused Enderpulvis
+item.enderdustred.name=Ignis Infused Enderpulvis
+item.enderdustblue.name=Aqua Infused Enderpulvis
+item.enderdustwhite.name=Air Infused Enderpulvis
+item.enderdustmicro.name=Micro Pile of Pure Enderpulvis
+item.enderdustmini.name=Tiny Pile of Pure Enderpulvis
+item.enderdustpure.name=Pure Enderpulvis
+item.enderdustingot.name=Hardened Enderpulvis
+
+item.obbysword.name=Obsidian Sword
+item.obbypickaxe.name=Obsidian Pickaxe
+item.obbyaxe.name=Obsidian Axe
+item.obbyshovel.name=Obsidian Shovel
+item.obbyhoe.name=Obsidian Hoe
+
+item.endersword.name=Ignis Infused Sword
+item.enderpickaxe.name=Terra Infused Pickaxe
+item.enderaxe.name=Aqua Infused Axe
+item.endershovel.name=Air Infused Shovel
+
+item.adminsword.name=Fish Slapper!
+
+item.woodenshears.name=Wooden Shears
+item.stoneshears.name=Stone Shears
+item.obbyshears.name=Obsidian Shears
+
+item.glasssword.name=Glass Sword
+
+item.badsword.name=Bad Sword
+item.badpickaxe.name=Bad Pickaxe
+item.badaxe.name=Bad Axe
+item.badshovel.name=Bad Shovel
+item.badhoe.name=Bad Hoe
+
+item.foresthelmet.name=Forest Camouflage Helmet
+item.forestchest.name=Forest Camouflage Chestplate
+item.forestleggings.name=Forest Camouflage Leggings
+item.forestboots.name=Forest Camouflage Boots
+
+item.netherhelmet.name=Nether Camouflage Helmet
+item.netherchest.name=Nether Camouflage Chestplate
+item.netherleggings.name=Nether Camouflage Leggings
+item.netherboots.name=Nether Camouflage Boots
+
+item.deserthelmet.name=Desert Camouflage Helmet
+item.desertchest.name=Desert Camouflage Chestplate
+item.desertleggings.name=Desert Camouflage Leggings
+item.desertboots.name=Desert Camouflage Boots
+
+item.snowhelmet.name=Snow Camouflage Helmet
+item.snowchest.name=Snow Camouflage Chestplate
+item.snowleggings.name=Snow Camouflage Leggings
+item.snowboots.name=Snow Camouflage Boots
+
+item.stonehelmet.name=Stone Camouflage Helmet
+item.stonechest.name=Stone Camouflage Chestplate
+item.stoneleggings.name=Stone Camouflage Leggings
+item.stoneboots.name=Stone Camouflage Boots
+
+item.nightvision.name=Night Vision Goggles
+
+item.claimwand.name=Wand of Land Claiming
+
+tile.ironsand.name=Magnesium Rich Sand
+tile.glasssand.name=Silica Rich Sand
+tile.blazesand.name=Blaze Powder Sand
+
+tile.obbybrick.name=Obsidian Bricks
+tile.obbysmooth.name=Smooth Obsidian
+tile.obbyglass.name=Obsidian Glass
+
+tile.blockenderdust.name=Enderpulvis Sand
+tile.enderglass.name=Enderpulvis Glass
+
+tile.enderdustore.name=Enderpulvis Ore
+tile.blazepowderore.name=Blaze Powder Ore
+tile.boronore.name=Kernite Ore
+
+tile.infuser.name=WIP Block (does nothing but sits there and look pretty)
+tile.boronblock.name=Block of Boron
+
+itemGroup.tabBobyEX=Bobys Extras
+itemGroup.tabBobyEXtool=Bobys Extras Tools & Weapons
+
+achievement.cookshards=Creating Shards
+achievement.startmagicbeans.desc=Cook a block of Magnesium Rich Sand in a furnace
