@@ -1,5 +1,5 @@
 # Bobys-Extras
-Still working on uploading and getting used to github, There may be no files for a while :P
+Yay! The files are all up! They may not be the best code ever but you can look through if you need help coding your own mods.
 
 Welcome to the Bobys Extras Github, This is where you can find the Wiki, Report issues with the mod and look at how my mods coded! For anyone looking for compiled offical distributions of the mod head to the Curse Forge page here: https://minecraft.curseforge.com/projects/bobys-extras
 
