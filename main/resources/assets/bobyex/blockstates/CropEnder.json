@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "bobyex:enderplant_stage0" },
+        "age=1": { "model": "bobyex:enderplant_stage1" },
+        "age=2": { "model": "bobyex:enderplant_stage2" },
+        "age=3": { "model": "bobyex:enderplant_stage3" },
+        "age=4": { "model": "bobyex:enderplant_stage4" },
+        "age=5": { "model": "bobyex:enderplant_stage5" },
+        "age=6": { "model": "bobyex:enderplant_stage6" },
+        "age=7": { "model": "bobyex:enderplant_stage7" }
+    }
+}
