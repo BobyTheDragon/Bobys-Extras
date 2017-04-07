@@ -1,4 +1,4 @@
-# Boby's Extras Contributing Documentation
+# Boby's Extras Contributing Guidelines
 Please read if your going to post something!
 
 ## Issues
