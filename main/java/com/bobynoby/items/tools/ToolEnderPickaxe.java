@@ -52,8 +52,8 @@ public class ToolEnderPickaxe extends ItemPickaxe {
 	}
 	
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
-    	par3List.add("You can hear mother nature speaking");
-    	par3List.add("to you, as you hold it in your hand...");
+    	par3List.add("§2You can hear mother nature speaking");
+    	par3List.add("§2to you, as you hold it in your hand...");
     	
     }
 

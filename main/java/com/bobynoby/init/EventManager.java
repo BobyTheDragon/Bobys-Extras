@@ -14,9 +14,9 @@ public class EventManager {
 	
 	@SubscribeEvent
 	public void onJoin(PlayerLoggedInEvent event) {
-		if (ConfigManager.logInMessage == true) {
 		EntityPlayer player = event.player;
-				player.addChatComponentMessage(new TextComponentString("\u00A7DClient running BobyEX, Loaded version is\u00A75 " + Reference.VERSION));
+		if (ConfigManager.logInMessage == true) {
+				player.sendMessage(new TextComponentString("\u00A7DClient running BobyEX, Loaded version is\u00A75 " + Reference.VERSION));
 				System.out.println("Client running BobyEX, Loaded version is " + Reference.VERSION);
 		}
 	}

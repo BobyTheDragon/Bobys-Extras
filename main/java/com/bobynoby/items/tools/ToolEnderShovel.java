@@ -52,8 +52,8 @@ public class ToolEnderShovel extends ItemSpade {
 	}
     
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
-    	par3List.add("It seems as gravity does not");
-    	par3List.add("affect this shovel...");
+    	par3List.add("§bIt seems as gravity does not");
+    	par3List.add("§baffect this shovel...");
     	
     }
 

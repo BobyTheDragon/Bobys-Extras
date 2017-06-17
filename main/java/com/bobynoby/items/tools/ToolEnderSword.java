@@ -55,7 +55,7 @@ public class ToolEnderSword extends ItemSword {
 	}
 
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
-    	par3List.add("Its a flaming sword! But it seems");
-    	par3List.add("as it cant hurt its user...");
+    	par3List.add("§cIts a flaming sword! But it seems");
+    	par3List.add("§cas it cant hurt its user...");
     }
 }

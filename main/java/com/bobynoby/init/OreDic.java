@@ -2,7 +2,7 @@ package com.bobynoby.init;
 
 import net.minecraftforge.oredict.OreDictionary;
 
-public class OreDic extends OreDictionary{
+public class OreDic extends OreDictionary {
 	
 	public static void registerOreDic() {
 		
@@ -13,23 +13,24 @@ public class OreDic extends OreDictionary{
 		
 		//blocks
 		registerOre("sand", BEXBlocks.ironsand);
+		//registerOre("sand", BEXBlocks.glasssand);
 		registerOre("blockBoron", BEXBlocks.boronblock);
 		registerOre("blockEnderpulvis", BEXBlocks.blockenderdust);
 		registerOre("blockBlazepowder", BEXBlocks.blazesand);
 		registerOre("glass", BEXBlocks.enderglass);
 		registerOre("glass", BEXBlocks.obbyglass);
+		registerOre("obsidian", BEXBlocks.obbybrick);
+		registerOre("obsidian", BEXBlocks.obbysmooth);
 		
 		//items
 		registerOre("ingotBoron", BEXItems.boroningot);
-		registerOre("ingotObsidian", BEXItems.obbyingot);
 		registerOre("stickBoron", BEXItems.boronstick);
+		registerOre("ingotObsidian", BEXItems.obbyingot);
+		registerOre("stickObsidian", BEXItems.obbystick);
 		registerOre("itemEnderpulvis", BEXItems.enderdust);
 		registerOre("shardIron", BEXItems.ironshard);
-		
-		if (ConfigManager.allowEnderpulvisUranium == true) {
-		registerOre("dustUranium", BEXItems.enderdustpure);
-		registerOre("ingotUranium", BEXItems.enderdustingot);
-		}
+		registerOre("dustEnderpulvis", BEXItems.enderdustpure);
+		registerOre("ingotEnderpulvis", BEXItems.enderdustingot);
 		
 		//dye
 		if (ConfigManager.allowEnderpulvisDyes == true) {

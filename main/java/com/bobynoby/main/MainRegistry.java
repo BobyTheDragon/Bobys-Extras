@@ -3,6 +3,7 @@ package com.bobynoby.main;
 import com.bobynoby.init.CraftingManager;
 import com.bobynoby.init.EventManager;
 import com.bobynoby.init.FuelHandler;
+import com.bobynoby.init.ModCompatibility;
 
 import java.io.File;
 
@@ -70,6 +71,7 @@ public class MainRegistry
 		GameRegistry.registerWorldGenerator(new OreGenManager(), 3);
 		OreDic.registerOreDic();
 		FMLCommonHandler.instance().bus().register(new EventManager());
+		ModCompatibility.init();
 	}
 	
 	@EventHandler

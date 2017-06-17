@@ -14,7 +14,6 @@ public class ConfigManager {
 	//Items
 	public static boolean registerClaimWand;
 	public static boolean registerBadTools;
-	public static boolean allowEnderpulvisUranium;
 	public static boolean allowEnderpulvisDyes;
 	public static boolean enchantEnderToolsOnCraft;
 	public static boolean generateParticlesOnEnderTools;
@@ -27,6 +26,10 @@ public class ConfigManager {
 	public static int genBoronOre;
 	public static int genBlazePowderOre;
 	public static int genEnderDustOre;
+	
+	//Mod Compatibility
+	public static boolean bigReactors;
+	
 	
 	public static void init(File file) {
 		config = new Configuration(file);
@@ -43,8 +46,7 @@ public class ConfigManager {
 		category = "Items";
 		config.addCustomCategoryComment(category, "Change items and item propertys");
 		registerClaimWand = config.getBoolean("registerClaimWand", category, false, "Load the Wand so servers can use it as a alternative to the golden shovel (Must be true for both client and server to work)");
-		registerBadTools = config.getBoolean("registerBadTools", category, false, "Load the full set of Bad tools, Could be used for hardcore worlds when inventorys need basic tools");
-		allowEnderpulvisUranium = config.getBoolean("allowEnderpulvisUranium", category, true, "Allow Pure Enderpulvis to be used like uranium, This can include being used as a fuel in reactors");
+		registerBadTools = config.getBoolean("registerBadTools", category, true, "Load the full set of Bad tools, Could be used for hardcore worlds when inventorys need basic tools");
 		allowEnderpulvisDyes = config.getBoolean("allowEnderpulvisDyes", category, true, "Allow Enderpulvis and its subtypes to used as colored dyes");
 		enchantEnderToolsOnCraft = config.getBoolean("enchantEnderToolsOnCraft", category, true, "When an Infused Tool is crafted it will have enchantments");
 		generateParticlesOnEnderTools = config.getBoolean("generateParticlesOnEnderTools", category, true, "When a Infused Tool is held it will generate a particle effect around the entity");
@@ -59,6 +61,10 @@ public class ConfigManager {
 		genBlazePowderOre = config.getInt("chanceBlazePowderOre", category, 250, 0, 1000, "Chance of Blaze Powder Ore to spawn");
 		genEnderDustOre = config.getInt("chanceEnderDustOre", category, 100, 0, 1000, "Chance of Enderpulvis Ore to spawn");
 		
+		category = "Mod Compatibility";
+		config.addCustomCategoryComment(category, "Change how my mod interact with other mods");
+		bigReactors = config.getBoolean("bigReactors", category, true, "Enderpulvis is a reactor fuel (Who doesnt want a pink reactor?), Blocks of Boron can be used as a reactor interior block");
+		 
 		config.save();
 	}
 

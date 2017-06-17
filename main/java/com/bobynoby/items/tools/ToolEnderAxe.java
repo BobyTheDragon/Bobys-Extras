@@ -52,8 +52,8 @@ public class ToolEnderAxe extends ItemAxe {
 	}
     
     public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
-    	par3List.add("Its made of water that is solid,");
-    	par3List.add("But its not ice? Strange...");
+    	par3List.add("§9Its made of water that is solid,");
+    	par3List.add("§9But its not ice? Strange...");
     	
     }
 
