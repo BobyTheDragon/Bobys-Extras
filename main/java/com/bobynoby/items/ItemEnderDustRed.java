@@ -18,19 +18,4 @@ public class ItemEnderDustRed extends Item {
 		setUnlocalizedName(Reference.BobyEXitems.ENDERPULVISRED.getUnlocalizedName());
 		setRegistryName(Reference.BobyEXitems.ENDERPULVISRED.getRegistryName());
 	}
-	
-	 public boolean itemInteractionForEntity(ItemStack stack, EntityPlayer playerIn, EntityLivingBase target, EnumHand hand) {
-	 if (target instanceof EntitySheep) {
-		 EntitySheep entitysheep = (EntitySheep)target;
-         EnumDyeColor enumdyecolor = EnumDyeColor.RED;
-         if (!entitysheep.getSheared() && entitysheep.getFleeceColor() != enumdyecolor) {
-        	 entitysheep.setFleeceColor(enumdyecolor);
-        	 --stack.stackSize;
-            }
-         return true;
-	 }
-     else {
-         return false;
-     }
-    }
 }

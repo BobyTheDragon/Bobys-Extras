@@ -5,6 +5,7 @@ import com.bobynoby.main.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class BobyEXtooltab extends CreativeTabs{
 
@@ -13,7 +14,7 @@ public class BobyEXtooltab extends CreativeTabs{
 	}
 
 	@Override
-	public Item getTabIconItem() {
-		return BEXItems.obbysword;
+	public ItemStack getTabIconItem() {
+		return new ItemStack(BEXItems.obbysword);
 	}
 }

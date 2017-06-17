@@ -93,7 +93,7 @@ public class BEXBlocks {
 		GameRegistry.register(block);
 		ItemBlock item = new ItemBlock(block);
 		item.setRegistryName(block.getRegistryName());
-		GameRegistry.registerItem(item);
+		GameRegistry.register(item);
 	}
 	
 	public static void registerRenders()

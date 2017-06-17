@@ -18,19 +18,4 @@ public class ItemBlackPaste extends Item {
 		setUnlocalizedName(Reference.BobyEXitems.BLACKPASTE.getUnlocalizedName());
 		setRegistryName(Reference.BobyEXitems.BLACKPASTE.getRegistryName());
 	}
-	
-	 public boolean itemInteractionForEntity(ItemStack stack, EntityPlayer playerIn, EntityLivingBase target, EnumHand hand) {
-	 if (target instanceof EntitySheep) {
-		 EntitySheep entitysheep = (EntitySheep)target;
-         EnumDyeColor enumdyecolor = EnumDyeColor.BLACK;
-         if (!entitysheep.getSheared() && entitysheep.getFleeceColor() != enumdyecolor) {
-        	 entitysheep.setFleeceColor(enumdyecolor);
-        	 --stack.stackSize;
-            }
-         return true;
-	 }
-     else {
-         return false;
-     }
-	}
 }

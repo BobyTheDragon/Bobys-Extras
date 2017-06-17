@@ -3,9 +3,9 @@ package com.bobynoby.main;
 public class Reference 
 {
 	public static final String MOD_ID = "bobyex";
-	public static final String NAME = "Bobys Extras";
-	public static final String VERSION = "betabuild_3";
-	public static final String ACCEPTED_CLIENT_VERSION = "1.10.0";
+	public static final String NAME = "Boby's Extras";
+	public static final String VERSION = "betabuild_5.0";
+	public static final String ACCEPTED_CLIENT_VERSION = "1.11.2";
 	
 	public static final String CLIENT_PROXY_CLASS = "com.bobynoby.main.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.bobynoby.main.proxy.ServerProxy";

@@ -89,6 +89,7 @@ public class CraftingManager {
 		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.SAND, 4), BEXBlocks.glasssand);
 		GameRegistry.addShapelessRecipe(new ItemStack(BEXItems.enderdustmicro), BEXItems.enderseed, BEXItems.extractor);
 		GameRegistry.addShapelessRecipe(new ItemStack(BEXItems.enderdustmini), BEXItems.enderdust, BEXItems.extractor);
+		GameRegistry.addShapedRecipe(new ItemStack(BEXItems.glasssword), " G ", " G ", " S ", 'G', Blocks.GLASS_PANE, 'S', BEXItems.boronstick);
 		
 		
 		//Furnace Recipes
